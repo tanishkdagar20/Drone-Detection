@@ -34,13 +34,16 @@ drone-detection/
 ```bash
 git clone https://github.com/tanishkdagar20/Drone-Detection.git
 cd drone-detection
-2. Create and Activate Virtual Environment (Recommended)
+
+### 2. Create and Activate Virtual Environment (Recommended)
 python3 -m venv venv
 source venv/bin/activate        # macOS/Linux
 venv\Scripts\activate           # Windows
-3. Install Dependencies
+
+### 3. Install Dependencies
 pip install -r requirements.txt
-4. Add Trained YOLOv5 Model
+
+### 4. Add Trained YOLOv5 Model
 Place your trained best.pt model file in the root directory.
 Make sure the class in your model matches 'Drone'. You can update this in the script if needed.
 
@@ -63,9 +66,10 @@ You can also clone YOLOv5 manually and switch to:
 
 torch.hub.load('./yolov5', 'custom', path='best.pt', source='local')
 
-🙋‍♂️ Author
+____
+
+##**🙋‍♂️ Author**
 
 Tanishk Dagar
 🛡️ DRDO Research Intern | 👨‍💻 AI/ML Enthusiast
 Feel free to connect on LinkedIn
-
